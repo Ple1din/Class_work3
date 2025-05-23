@@ -9,7 +9,7 @@ std::string VideoPost::display() const {
 }
 
 std::string VideoPost::display(const std::string& format) const {
-    std::string result = "---Image Post---\n" "Author: " + author + "\nDate: " + date + "\nContent: " + content + "\n";
+    std::string result = "---Video Post---\n" "Author: " + author + "\nDate: " + date + "\nContent: " + content + "\n";
     if (format == "true") {
         result += "Duration: " + std::to_string(duration) + " sec\nQuality: " + quality + "\n";
     }
