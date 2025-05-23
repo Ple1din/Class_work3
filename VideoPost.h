@@ -5,7 +5,7 @@
 
 class VideoPost : public Post {
 private:
-    int duration; // en segundos
+    int duration;
     std::string quality;
 
 public:
@@ -13,6 +13,14 @@ public:
               int duration, const std::string& quality);
 
     std::string display() const override;
+    std::string display(const std::string& format) const;
+
+    // Getters and setters
+    int getDuration() const;
+    void setDuration(int duration);
+
+    std::string getQuality() const;
+    void setQuality(const std::string& quality);
 };
 
 #endif
