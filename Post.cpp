@@ -3,10 +3,6 @@
 Post::Post(const std::string& author, const std::string& date, const std::string& content)
     : author(author), date(date), content(content) {}
 
-std::string Post::display() const {
-    return "Author: " + author + "\nDate: " + date + "\nContent: " + content + "\n" + "Details: No specific details available.\n";
-}
-
 std::string Post::getAuthor() const { return author; }
 std::string Post::getDate() const { return date; }
 std::string Post::getContent() const { return content; }
