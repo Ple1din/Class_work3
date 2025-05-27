@@ -1,2 +1,3 @@
 # Social Media Post System
-![Class_Diagram drawio (4)](https://github.com/user-attachments/assets/3836812b-1a5b-47df-a750-c58b5111d900)
+
+![Class_Diagram drawio (5)](https://github.com/user-attachments/assets/67da5c1e-71b5-47d8-b7dd-28212e901d78)
