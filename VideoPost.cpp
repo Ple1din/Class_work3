@@ -5,7 +5,7 @@ VideoPost::VideoPost(const std::string& author, const std::string& date, const s
     : Post(author, date, content), duration(duration), quality(quality) {}
 
 std::string VideoPost::display() const {
-    return "---Video Post---\n" + Post::display();
+    return "---Video Post---\n" "Author: " + author + "\nDate: " + date + "\nContent: " + content + "\n" + "Details: No specific details available.\n";
 }
 
 std::string VideoPost::display(const std::string& format) const {
