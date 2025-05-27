@@ -13,7 +13,7 @@ public:
     Post(const std::string& author, const std::string& date, const std::string& content);
     virtual ~Post() = default;
 
-    virtual std::string display() const;
+    virtual std::string display() const=0;
 
     // Getters
     std::string getAuthor() const;
