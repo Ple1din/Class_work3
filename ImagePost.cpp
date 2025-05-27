@@ -5,7 +5,7 @@ ImagePost::ImagePost(const std::string& author, const std::string& date, const s
     : Post(author, date, content), filename(filename), resolution(resolution) {}
 
 std::string ImagePost::display() const {
-    return "---Image Post---\n" + Post::display();
+    return "---Image Post---\n" "Author: " + author + "\nDate: " + date + "\nContent: " + content + "\n" + "Details: No specific details available.\n";
 }
 
 std::string ImagePost::display(const std::string& format) const {
